@@ -1,9 +1,8 @@
 ---
-layout: post
+layout: single
 title: "Posting on local"
 date: 2021-08-02
 ---
-
 # this is a post
 created on local ...
 
@@ -19,5 +18,3 @@ how about a list with newline
 
 - line1
 - line2
-
-
