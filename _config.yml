@@ -17,9 +17,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-domain: axeltanner.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: https://axeltanner.github.io/  # the base hostname and protocol for your site, e.g. http://example.com
-baseurl: /blogtest4/      # place folder name if the site is served in a subfolder   
+###domain: axeltanner.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+###url: https://axeltanner.github.io/  # the base hostname and protocol for your site, e.g. http://example.com
+###baseurl: /blogtest4/      # place folder name if the site is served in a subfolder
+
+github: [metadata]
 
 title: Your awesome title
 email: your-email@example.com
@@ -27,15 +29,19 @@ description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-###baseurl: "/blogtest4" # the subpath of your site, e.g. /blog
-###url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/blogtest4" # the subpath of your site, e.g. /blog
+url: "https://axeltanner.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-theme: minima
+### theme: minima
+### theme: jekyll-theme-minimal
+remote_theme: pages-themes/minimal@v0.2.0
+### remote_theme: pages-themes/modernist@v0.2.0
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
 
 # Exclude from processing.
 # The following items will not be processed, by default.
