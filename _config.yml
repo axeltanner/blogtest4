@@ -39,11 +39,13 @@ github_username:  jekyll
 ### theme: minima
 ### theme: jekyll-theme-minimal
 ### remote_theme: pages-themes/minimal@v0.2.0
-theme: minimal-mistakes-jekyll
+### theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 ### remote_theme: pages-themes/modernist@v0.2.0
 plugins:
   - jekyll-feed
   - jekyll-github-metadata
+  - jekyll-include-cache
   - jekyll-remote-theme # add this line to the plugins list if you already have one
 
 # Exclude from processing.
