@@ -14,3 +14,10 @@ trying ```triple-backticks```
 how about a list w/o newline
 - line1
 - line2
+
+how about a list with newline
+
+- line1
+- line2
+
+
